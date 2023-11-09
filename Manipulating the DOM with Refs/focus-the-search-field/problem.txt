@@ -1,0 +1,1 @@
+Make it so that clicking the “Search” button puts focus into the field.
