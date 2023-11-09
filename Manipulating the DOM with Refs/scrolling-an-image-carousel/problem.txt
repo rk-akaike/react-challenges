@@ -1,0 +1,7 @@
+This image carousel has a “Next” button that switches the active image. Make the gallery scroll horizontally to the active image on click. You will want to call scrollIntoView() on the DOM node of the active image:
+
+node.scrollIntoView({
+  behavior: 'smooth',
+  block: 'nearest',
+  inline: 'center'
+});
